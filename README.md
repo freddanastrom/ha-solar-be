@@ -27,49 +27,49 @@ Anser du att den egenförbrukade elen ska värderas annorlunda behöver du juste
 
 ## Sensorer
 Ingående sensorer som jag använder:  
--sensor.inverter_daily_yeild (daglig produktion mätt i kWh från solcellsanläggningen)
--sensor.power_meter_exported (total export till elnätet mätt i kWh)
--sensor.nordpool_kwh_se3_sek_4_10_025 (aktuellt spotpris från Nordpool, pris inkl. moms utan nätavgifter, skatter, nätnytta eller liknande)
+- sensor.inverter_daily_yeild (daglig produktion mätt i kWh från solcellsanläggningen)
+- sensor.power_meter_exported (total export till elnätet mätt i kWh)
+- sensor.nordpool_kwh_se3_sek_4_10_025 (aktuellt spotpris från Nordpool, pris inkl. moms utan nätavgifter, skatter, nätnytta eller liknande)
 
 ## Detta får du:
 ### Break-even
--sensor.solar_investment (räknare som utgår från din anläggnings kostnad och tickar mot 0, vid break-even ökar den och visar vad du verkligen tjänat på investeringen)
--sensor.solar_investment_predicted_break_even (uppskattat datum för break-even)
+- sensor.solar_investment (räknare som utgår från din anläggnings kostnad och tickar mot 0, vid break-even ökar den och visar vad du verkligen tjänat på investeringen)
+- sensor.solar_investment_predicted_break_even (uppskattat datum för break-even)
 
 ### Egenförbrukad el
--sensor.inverter_hourly_yield_self_consumption (mätare för egenförbrukad el, timme)
--sensor.inverter_hourly_yield_self_consumption_earnings (värde för egenförbrukad el, timme)
--sensor.inverter_total_yield_self_consumption (mätare för egenförbrukad el, total sedan start)
--sensor.inverter_total_yield_self_consumption_earnings (värde för egenförbrukad el, totalt sedan start)
+- sensor.inverter_hourly_yield_self_consumption (mätare för egenförbrukad el, timme)
+- sensor.inverter_hourly_yield_self_consumption_earnings (värde för egenförbrukad el, timme)
+- sensor.inverter_total_yield_self_consumption (mätare för egenförbrukad el, total sedan start)
+- sensor.inverter_total_yield_self_consumption_earnings (värde för egenförbrukad el, totalt sedan start)
 
 Dessa ingår också, men är inget krav och kan tas bort om så önskas.  
--sensor.inverter_daily_yield_self_consumption (mätare för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
--sensor.inverter_daily_yield_self_consumption_earnings (värde för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
--sensor.inverter_monthly_yield_self_consumption (mätare för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
--sensor.inverter_monthly_yield_self_consumption_earnings (värde för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
--sensor.inverter_yearly_yield_self_consumption (mätare för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
--sensor.inverter_yearly_yield_self_consumption_earnings (värde för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_daily_yield_self_consumption (mätare för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
+- sensor.inverter_daily_yield_self_consumption_earnings (värde för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
+- sensor.inverter_monthly_yield_self_consumption (mätare för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_monthly_yield_self_consumption_earnings (värde för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_yearly_yield_self_consumption (mätare för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_yearly_yield_self_consumption_earnings (värde för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
 
 ### Såld el
--sensor.power_meter_exported_hourly (mätare för såld el, timme)
--sensor.power_meter_exported_hourly_earnings (värde för såld el, timme)
--sensor.power_meter_exported_total_earnings (totalt värde av såld el)
+- sensor.power_meter_exported_hourly (mätare för såld el, timme)
+- sensor.power_meter_exported_hourly_earnings (värde för såld el, timme)
+- sensor.power_meter_exported_total_earnings (totalt värde av såld el)
 
 Dessa ingår också, men är inget krav och kan tas bort om så önskas.  
--sensor.inverter_daily_yield_self_consumption (mätare för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
--sensor.inverter_daily_yield_self_consumption_earnings (värde för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
--sensor.inverter_monthly_yield_self_consumption (mätare för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
--sensor.inverter_monthly_yield_self_consumption_earnings (värde för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
--sensor.inverter_yearly_yield_self_consumption (mätare för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
--sensor.inverter_yearly_yield_self_consumption_earnings (värde för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_daily_yield_self_consumption (mätare för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
+- sensor.inverter_daily_yield_self_consumption_earnings (värde för egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
+- sensor.inverter_monthly_yield_self_consumption (mätare för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_monthly_yield_self_consumption_earnings (värde för egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_yearly_yield_self_consumption (mätare för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
+- sensor.inverter_yearly_yield_self_consumption_earnings (värde för egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
 
 ### Summa av egenförbrukad och såld el
--sensor.solar_earnings_hourly (värde av såld och egenförbrukad el, timme)
--sensor.solar_earnings_total (värde av såld och egenförbrukad el, totalt)
--sensor.solar_earnings_12m (värde av såld och egenförbrukad el rullande 12 månader)
--sensor.solar_earnings_12m_oldest (hjälpare för att kunna utföra korrekt beräkning innan det gått 12 månader. Kan tas bort efter 12 månader, men då måste också sensorn som beräknar datum justeras.)
+- sensor.solar_earnings_hourly (värde av såld och egenförbrukad el, timme)
+- sensor.solar_earnings_total (värde av såld och egenförbrukad el, totalt)
+- sensor.solar_earnings_12m (värde av såld och egenförbrukad el rullande 12 månader)
+- sensor.solar_earnings_12m_oldest (hjälpare för att kunna utföra korrekt beräkning innan det gått 12 månader. Kan tas bort efter 12 månader, men då måste också sensorn som beräknar datum justeras.)
 
 Dessa ingår också, men är inget krav och kan tas bort om så önskas.  
--sensor.solar_earnings_daily (värde av såld och egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
--sensor.solar_earnings_monthly (värde av såld och egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
--sensor.solar_earnings_yearly (värde av såld och egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
+- sensor.solar_earnings_daily (värde av såld och egenförbrukad el, daglig, ej nödvändig och kan uteslutas)
+- sensor.solar_earnings_monthly (värde av såld och egenförbrukad el, månatlig, ej nödvändig och kan uteslutas)
+- sensor.solar_earnings_yearly (värde av såld och egenförbrukad el, årlig, ej nödvändig och kan uteslutas)
